@@ -40,7 +40,7 @@ export const Footer = () => (
       </div>
 
       <div className="footer__info">
-        <p className="footer__copyright">©Petshop, 2024</p>
+        <p className="footer__copyright">Cup-time, 2024</p>
 
         <p className="footer__description">Проект сделан в учебных целях</p>
 
@@ -55,7 +55,7 @@ export const Footer = () => (
           <li className="footer__developer">
             Developer:
             <a className="footer__developer-link" href="#">
-              Maksim Leskin
+              Max Pog
             </a>
           </li>
         </ul>
