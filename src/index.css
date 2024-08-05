@@ -263,6 +263,10 @@ input[type="number"] {
   font-size: 20px;
 }
 
+.footer__menu-link.active {
+  color: #64099b;
+}
+
 .footer__email {
   display: inline-block;
   margin-top: 0;
@@ -272,6 +276,25 @@ input[type="number"] {
 .footer__social {
   display: flex;
   gap: 12px;
+}
+
+.footer__social-link {
+  display: block;
+  color: #ffffff;
+  transition: color .3s ease-in-out;
+  outline: none;
+  line-height: 0;
+  border-radius: 6px;
+}
+
+.footer__social-link:hover {
+  color: #64099b;
+}
+
+.footer__social-link:focus-visible {
+  color: #64099b;
+  outline: 2px solid #64099b;
+  outline-offset: 3px;
 }
 
 .cart {
